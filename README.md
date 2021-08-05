@@ -54,7 +54,7 @@ MIN_BEDROOMS = 3
 MIN_BATHROOMS = 2
 MIN_CARSPACES = 2
 
-SURBURBS = ["Surburb1", "Surburb2 PARK"]  # You can add as much as you want.
+SURBURBS = ["Surburb1", "Surburb2"]  # You can add as much as you want.
 ````
 
 Run daily_task.py
