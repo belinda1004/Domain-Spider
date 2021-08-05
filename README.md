@@ -47,6 +47,7 @@ That's it!
 
 Modify the configurations on the top of my_search.py to fit your requirements.
 
+````python
 LISTING_TYPE = "Rent"   # Buy / Rent/ Sold
 PROPERTY_TYPE = ["House",]
 MIN_BEDROOMS = 3
@@ -54,6 +55,7 @@ MIN_BATHROOMS = 2
 MIN_CARSPACES = 2
 
 SURBURBS = ["Surburb1", "Surburb2 PARK"]  # You can add as much as you want.
+````
 
 Run daily_task.py
 
@@ -63,4 +65,6 @@ Find the result from rent_history.xlsx.
 
 To change the file name, modify the configuration on the top of record.py
 
+````python
 FILE_NAME = 'rent_history.xlsx'
+````
